@@ -7,11 +7,11 @@ function About() {
     return (
         <div className={style.aboutBlock}>
 
-            <div className={style.container}>
+            <div className={style.aboutContainer}>
 
                 <div className={style.introductionAbout}>
                     <span>Hi, There</span>
-                    <h1>Magomedova Manarsha</h1>
+                    <h1>Magomedova Mona</h1>
                     <p>I'm Front-end Developer. I code and create web elements for amazing people around the world. I have great interest for web programming and I like work with new people.</p>
                 </div>
 

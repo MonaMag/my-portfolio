@@ -6,19 +6,14 @@ import style from "./Main.module.css";
 import About from "./about/About";
 
 
-
 function Main() {
 
 
     return (
         <div className={style.mainBlock}>
-                <About/>
-                <Skills/>
-
-            <div className="portfolioContainer">
-                <Portfolio/>
-            </div>
-            .contactContainer
+            <About/>
+            <Skills/>
+            <Portfolio/>
             <Contact/>
         </div>
     )
