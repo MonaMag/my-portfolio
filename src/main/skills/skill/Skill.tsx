@@ -1,16 +1,20 @@
-import React from 'react'
+import React from 'react';
 import style from "./Skill.module.css";
 
+export type SkillsPropsType = {
+    title: string
+    description: string
+    icon: string
+}
 
-
-function Skill() {
+function Skill(props: SkillsPropsType) {
 
 
     return (
         <div className={style.skill}>
-            <div>icon</div>
-            <h4>React</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <img  className={style.icon} src={props.icon} alt="skill"/>
+            <h3>{props.title}</h3>
+            <p>{props.description}</p>
         </div>
     )
 }

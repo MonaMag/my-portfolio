@@ -1,0 +1,33 @@
+.portfolioBlock {
+    background-color: #e0fae0;
+}
+
+.portfolioContainer {
+    border: 1px solid;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.titlePortfolio {
+    background-color: #eeecec;
+}
+.projects {
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 1129px) {
+    .projects {
+        justify-content: center;
+    }
+}
+
