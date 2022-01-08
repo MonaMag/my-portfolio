@@ -1,9 +1,73 @@
-.footer {
-    height: 130px;
-    width: 100%;
+.footerBlock {
     background-color: #F4F8F9;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    padding-bottom: 30px;
 
+
+}
+
+.footerContainer {
+    border: 1px solid;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerItems {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 210px;
+    height: 80px;
+    background-color: cornsilk;
+    margin: 10px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.item h5 {
+    font-size: 14px;
+    margin: 10px 0;
+    font-weight: revert;
+}
+
+.linkMedia a{
+    margin-right: 8px;
+}
+
+.formFooter {
+
+}
+
+.inputFooter {
+    border-style: none none solid none;
+    border-width: 1px;
+    background-color: cornsilk;
+}
+
+.btnFooter {
+
+}
+
+
+.copyright {
+    font-size: 12px;
+    margin: 15px;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .footerItems {
+        justify-content: center;
+    }
 }
