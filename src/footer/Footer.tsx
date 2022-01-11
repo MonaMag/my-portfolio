@@ -2,9 +2,6 @@ import React from 'react'
 import style from './Footer.module.css'
 
 
-
-
-
 function Footer() {
 
 
@@ -21,8 +18,8 @@ function Footer() {
                         <h5>Social:</h5>
                         <span>I'm in social media:</span>
                         <div className={style.linkMedia}>
-                            <a href="#">linkedin</a>
-                            <a href="#">facebook</a>
+                            <a href="https://www.linkedin.com/in/manarsha-magomedova-21372283/">linkedin</a>
+                            <a href="https://www.facebook.com/mona.magomedova">facebook</a>
                             <a href="#">instagram</a>
                         </div>
                     </div>
@@ -38,7 +35,7 @@ function Footer() {
                         </form>
                     </div>
                 </div>
-               <div className={style.copyright}>@ 2021 | mona | All rights reserved</div>
+                <div className={style.copyright}>@ 2021 | mona | All rights reserved</div>
             </div>
         </div>
     )

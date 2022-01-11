@@ -1,0 +1,17 @@
+.project {
+    width: 300px;
+    background-color: #fdf7f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.imgProject {
+   width: 100%;
+}
+
+.projectText {
+
+}
