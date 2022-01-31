@@ -8,7 +8,6 @@ import About from "./about/About";
 
 function Main() {
 
-
     return (
         <div className={style.mainBlock}>
             <About/>

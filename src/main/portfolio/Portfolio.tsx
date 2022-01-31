@@ -9,6 +9,7 @@ function Portfolio() {
     return (
         <div className={style.portfolioBlock}>
             <div className={style.portfolioContainer}>
+
                 <h2 className={style.titlePortfolio}>Projects</h2>
                 <div className={style.projects}>
                     <Project title={'Isle of Iona'}

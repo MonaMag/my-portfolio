@@ -1,14 +1,172 @@
-.header {
+.headerBlock {
+    background-color: #38384b;
     height: 80px;
     width: 100%;
-    background-color: #F4F8F9;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    position: fixed;
+    z-index: 3;
+}
 
+.header {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.home:hover {
+    color: #cc4277;
+    cursor: pointer;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav li {
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+.nav a {
+    padding: 3px 12px;
+    text-decoration: none;
+    color: #f1f0f0;
+    line-height: 100%;
+}
+.nav a:hover {
+    color: #cc4277;;
 }
 @media screen and (max-width: 1024px) {
     .header {
         justify-content: center;
+
+    }
+    .nav ul {
+        width: 350px;
+        justify-content: center;
     }
 }
+
+
+
+
+/* меню */
+/*
+.nav {
+    margin: 20px 0;
+}
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+.nav li {
+    margin: 0 5px 10px 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    *display:inline; !* ie7 *!
+}
+.nav a {
+    padding: 3px 12px;
+    text-decoration: none;
+    color: #dedcdc;
+    line-height: 100%;
+}
+.nav a:hover {
+    color: #cc4277;;
+}
+.nav a:focus {
+    color: #cc4277;;
+}
+.nav .current a {
+    background: #999;
+    color: #fff;
+    border-radius: 3px;
+}
+*/
+
+
+/*!* меню справа *!
+.nav.right ul {
+    text-align: right;
+}*/
+
+/* меню по центру */
+
+/*
+.nav.center ul {
+    text-align: center;
+}
+
+@media screen and (max-width: 690px) {
+    .nav {
+        position: relative;
+        min-height: 40px;
+
+    }
+    .nav ul {
+        width: 180px;
+        padding: 10px 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: solid 1px #aaa;
+        box-shadow: 0 1px 2px rgba(0,0,0,.3);
+
+    }
+    .nav li {
+        display: none; !* скрыть все <li> пункты *!
+        margin: 0;
+    }
+    .nav .current {
+        display: block; !* показывать только текущие активные <li> пункты *!
+    }
+    .nav a {
+        display: block;
+        padding: 5px 5px 5px 32px;
+        text-align: left;
+    }
+    .nav .current a {
+        background: none;
+        color: #666;
+    }
+
+    !* при наведении на пункты меню *!
+    .nav ul:hover {
+        background-image: none;
+    }
+    .nav ul:hover li {
+        display: block;
+        margin: 0 0 5px;
+    }
+    .nav ul:hover .current {
+     !*   background-color: #d06990;*!
+    }
+
+    !*
+    !* адаптивное меню справа *!
+    .nav.right ul {
+        left: auto;
+        right: 0;
+    }
+    *!
+
+    !* адаптивное меню по центру *!
+    .nav.center ul {
+        left: 50%;
+        margin-left: -90px;
+    }
+
+}*/

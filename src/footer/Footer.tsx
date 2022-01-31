@@ -9,11 +9,13 @@ function Footer() {
         <div className={style.footerBlock}>
             <div className={style.footerContainer}>
                 <div className={style.footerItems}>
-                    <div className={style.item}>
+                    <a href="#"></a>
+                    {/* <div className={style.item}>
                         <h5>Get in touch:</h5>
                         <span>mona.mag@mail.ru</span>
                         <div>+7(989)-671-2646</div>
                     </div>
+
                     <div className={style.item}>
                         <h5>Social:</h5>
                         <span>I'm in social media:</span>
@@ -33,7 +35,7 @@ function Footer() {
                             <input className={style.inputFooter} type="email"/>
                             <button className={style.btnFooter}>SEND</button>
                         </form>
-                    </div>
+                    </div>*/}
                 </div>
                 <div className={style.copyright}>@ 2021 | mona | All rights reserved</div>
             </div>
