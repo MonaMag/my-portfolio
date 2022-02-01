@@ -1,5 +1,12 @@
 import React from 'react'
 import style from './Footer.module.css'
+import { FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import { faTelegramPlane } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
+import { faInstagramSquare } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+
+
 
 
 function Footer() {
@@ -8,8 +15,13 @@ function Footer() {
     return (
         <div className={style.footerBlock}>
             <div className={style.footerContainer}>
-                <div className={style.footerItems}>
-                    <a href="#"></a>
+                <div className={style.footerSocial}>
+                    <a href="#"><FontAwesomeIcon icon={faFacebookF}/></a>
+                    <a href="#"><FontAwesomeIcon icon={faTelegramPlane}/></a>
+                    <a href="#"><FontAwesomeIcon icon={faInstagramSquare}/></a>
+                    <a href="#"><FontAwesomeIcon icon={ faLinkedinIn}/></a>
+
+
                     {/* <div className={style.item}>
                         <h5>Get in touch:</h5>
                         <span>mona.mag@mail.ru</span>

@@ -44,6 +44,7 @@
     text-decoration: none;
     color: #f1f0f0;
     line-height: 100%;
+    cursor: pointer;
 }
 .nav a:hover {
     color: #cc4277;;
@@ -96,15 +97,11 @@
     border-radius: 3px;
 }
 */
-
-
 /*!* меню справа *!
 .nav.right ul {
     text-align: right;
 }*/
-
 /* меню по центру */
-
 /*
 .nav.center ul {
     text-align: center;

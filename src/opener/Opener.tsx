@@ -12,7 +12,7 @@ function Opener() {
                         <span></span>
                         <h1>Hi, i'm
                             <br/>
-                            Mona Magomedova</h1>
+                            Manarsha Magomedova</h1>
                         <p className={style.text}>Web developer & Freelancer</p>
                     </div>
                     <a className={style.btn}>CONTACT ME</a>
